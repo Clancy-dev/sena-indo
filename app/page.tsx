@@ -655,14 +655,14 @@ export default function Home() {
             alt="Coffee harvesting"
             width={600}
             height={400}
-            className="rounded-md object-cover w-full h-full"
+            className="rounded-md object-contain w-full h-full"
           />
           <Image
             src="/sample2.jpg?height=400&width=600"
             alt="Coffee processing"
             width={600}
             height={400}
-            className="rounded-md object-cover w-full h-full"
+            className="rounded-md object-contain w-full h-full"
           />
         </div>
       </section>
@@ -729,7 +729,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto px-4 mt-8 pt-8 border-t border-gray-800">
+        <div className="max-w-7xl mx-auto px-4 mt-8 pt-8 border-t border-white">
           <p className="text-center">
             © {new Date().getFullYear()} SENA INDO UGANDA LIMITED. {t.footer.rights}
           </p>
