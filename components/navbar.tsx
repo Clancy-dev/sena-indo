@@ -235,7 +235,7 @@ export default function Navbar() {
                   <span className="sr-only">Toggle menu</span>
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right">
+              <SheetContent side="right" className="bg-white p-2">
                 <nav className="flex flex-col space-y-4 mt-8">
                   <Link href="/" className="text-sm font-medium hover:text-green-700 transition-colors">
                     {t.home}
@@ -288,7 +288,7 @@ export default function Navbar() {
                     </div>
                   </div>
 
-                  <Button className="w-full bg-green-700 hover:bg-green-800 mt-4">{t.getInTouch}</Button>
+                  <Button className="w-full bg-green-700 hover:bg-green-800 mt-4 text-white">{t.getInTouch}</Button>
                 </nav>
               </SheetContent>
             </Sheet>
